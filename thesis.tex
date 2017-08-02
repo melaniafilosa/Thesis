@@ -1,0 +1,109 @@
+\errorcontextlines32
+\documentclass[10pt]{book} %twoside and openright are default for the the book class
+\title{Title}
+\author{Carmela Filosa}
+\date{\today}
+
+\usepackage{cmtt,lmodern}      %Computer Modern Bright text with Latin Modern math
+\usepackage[T1]{fontenc}           %T1 font encoding to copy and search symbols like 
+\usepackage[UKenglish,dutch]{babel} %for appropriate hyphenation
+
+
+\usepackage[paperwidth=17cm,paperheight=24.5cm,top=2.51cm,bottom=2.005cm,inner=2.5cm,outer=1.5cm,headheight=12.0pt,headsep=0.58cm]{geometry}
+
+
+
+\input{macros.tex}
+
+\graphicspath{{figures/}}
+
+%\usepackage{titlesec}
+%\titleformat{\section}{\newpage \large\bfseries}
+%{\thesection.}{0.5em}{}
+% 
+%\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+
+
+\usepackage{fancyhdr}
+
+\usepackage{appendix} % For appendix
+
+\begin{document}
+
+%\begin{spacing}{1.1}
+
+\pagenumbering{gobble}  %geen paginanummers
+
+\input{chapters/titlepage.tex}
+
+
+\pagenumbering{roman}
+
+
+\chapter*{}
+\pagenumbering{gobble}
+%\renewcommand{\epigraphwidth}{\setlength{12cm}}
+
+\begin{center}
+{\Large  ``{    }''}
+\end{center}
+%\renewcommand{\epigraphwidth}{\setlength{5cm}}
+
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\include{chapters/abstract}
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+\pagestyle{empty}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+%%%%%FANCYHDR%%%%%%%%%%%%%
+
+\pagestyle{fancy}
+
+
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{}}
+
+\renewcommand{\sectionmark}[1]{}
+
+
+
+%%%%%%%%%
+
+\pagenumbering{arabic}
+
+
+%%%%%Chapters%%%%%
+
+\include{chapters/Introduction}
+\include{chapters/Non_imaging_optics}
+\include{chapters/Ray_tracing}
+\include{chapters/PS_ray_tracing}
+\include{chapters/Boundaries}
+\include{chapters/Analytic_ray_mapping}
+\include{chapters/Extended_ray_mapping}
+\include{chapters/Fresnel}
+\include{chapters/Conclusions}
+\include{chapters/Summary}
+\include{chapters/cv}
+\include{chapters/Acknowledgments}
+\bibliographystyle{alpha}
+
+\bibliography{Bib_US}
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+
+%\end{spacing}
+
+\end{document}

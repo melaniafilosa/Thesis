@@ -1,0 +1,153 @@
+%!TEX root = thesis.tex
+%%%% PACKAGES %%%%
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{mathrsfs}
+\usepackage{dsfont}
+\usepackage[hidelinks]{hyperref}  %to adapt page numbers in pdf. The option [hidelinks] hides hyperlinks
+\usepackage{color}            %for nb comments
+\usepackage{setspace}
+%Figures
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+%Watermark
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{1}
+
+\usepackage[notcite,notref]{showkeys}
+
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+%\setlist{nolistsep}
+%\setlist[enumerate]{topsep=0pt}
+
+\usepackage{graphicx}
+%\usepackage{fullpage}
+\usepackage{mathtools}
+\usepackage{verbatim}
+
+\usepackage{textcomp}         %for copyright symbol and bullets
+\usepackage[nottoc]{tocbibind} %include bibliography in toc (don't put the toc itself in the toc)
+\usepackage{url}              %for url's in bibliography
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{\baselineskip}
+
+%TOC
+\usepackage[titles]{tocloft}
+%\setlength\cftparskip{-5pt}
+%\setlength\cftbeforesecskip{-5pt}
+%\setlength\cftaftertoctitleskip{0.5pt}
+\setlength\cftparskip{-2pt}
+\setlength\cftbeforesecskip{1pt}
+\setlength\cftaftertoctitleskip{2pt}
+%Footnote without number
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+%%%%% THEOREMS, etc ... %%%%%%%
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{thm}[theorem]{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{lem}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{hyp}[theorem]{Hypothesis}
+\theoremstyle{definition}
+\newtheorem{assume}[theorem]{Assumption}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{defn}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{ex}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{nota}[theorem]{Notation}
+\numberwithin{equation}{section}
+\newtheorem*{theorem*}{Theorem}
+
+
+
+%%%%%%%%%%%%%%%BRS%%%%%%
+\newcommand{\R}{\mathbb{R}}
+
+%%%%%COLORS%%%%%%%%
+
+\newcommand{\US}{\color{red}}
+
+
+\newcommand\skp[2]{\left\langle #1 , #2 \right\rangle}
+\newcommand\bra[1]{\left({#1}\right)}
+\newcommand\pra[1]{\left[{#1}\right]}
+\newcommand\set[1]{\left\{#1\right\}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\newcommand\abs[1]{\left\lvert#1\right\rvert}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\esssup}{ess\,sup}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\Jac}{Jac}
+\DeclareMathOperator{\J}{J}
+\DeclareMathOperator{\Tr}{tr}
+\DeclareMathOperator{\AC}{AC}
+\DeclareMathOperator{\PI}{PI}
+\DeclareMathOperator{\TI}{TI}
+\DeclareMathOperator{\LSI}{LSI}
+\newcommand{\EX}[1][E]{\ensuremath {\mathds{#1}}}
+
+
+
+
+
+\def\div{\mathop{\mathrm{div}}\nolimits}
+\def\US{\color{red}}
+\def\vep{\varepsilon}
+\DeclareMathOperator{\TV}{TV}
+
+
+
+% Definition of undecided symbols
+%\DeclareMathOperator{\RelEnt}{H}
+\def\RelEnt{\mathbf H}
+%\DeclareMathOperator{\RF}{RF}
+\def\RF{\mathbf{RF}}
+\DeclareMathOperator{\Wasser}{W}
+\DeclareMathOperator{\I}{I}
+\def\I{\mathbf{I}}
+\def\Hausdorff{\mathcal{H}}
+
+
+
+
+
+%%%%%%From DOG paper%%%%%
+\def\opN{\mathcal N}
+\def\LDJ{\mathcal J}
+\def\hrho{\hat{\rho}}
+\def\opL{\mathscr L}
+\DeclareMathOperator\Int{Int}
+\def\Lebesgue{\mathcal L}
+\def\g{\gamma}
+\def\G{\Gamma}
+\newcommand\TA{T\!A}
+\def\d{\delta}
+
+\DeclareMathOperator{\supp}{supp}
+
+
+
+
+
+
+
+%% end code
