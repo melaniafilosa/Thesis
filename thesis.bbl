@@ -1,122 +1,34 @@
-\newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{GOVW09}
+\begin{thebibliography}{1}
 
-\bibitem[AGS08]{AmbrosioGigliSavare08}
-L.~Ambrosio, N.~Gigli, and G.~Savar\'e.
-\newblock {\em Gradient Flows in Metric Spaces and in the Space of Probability
-  Measures}.
-\newblock Lectures in mathematics ETH Z\"urich. Birkh\"auser, 2008.
+\bibitem{Gross2005Handbook}
+H.~Gross.
+\newblock {\em Handbook of the Optical Systems}, volume~1.
+\newblock Wiley-VCH, 2005.
 
-\bibitem[ASZ09]{AmbrosioSavareZambotti09}
-L.~Ambrosio, G.~Savar{\'e}, and L.~Zambotti.
-\newblock {Existence and stability for Fokker--Planck equations with
-  log-concave reference measure}.
-\newblock {\em Probability theory and related fields}, 145(3):517--564, 2009.
+\bibitem{hecht1998hecht}
+E.~Hecht.
+\newblock {\em Optics}.
+\newblock Parson Addison-Wesley, 2002.
 
-\bibitem[BCS97]{BonillaCarrilloSoler97}
-L.~L. Bonilla, J.~A. Carrillo, and J.~Soler.
-\newblock Asymptotic behavior of an initial-boundary value problem for the
-  {V}lasov--{P}oisson--{F}okker--{P}lanck system.
-\newblock {\em SIAM Journal on Applied Mathematics}, 57(5):1343--1372, 1997.
+\bibitem{portegies2013fast}
+J.~Portegies and P.~Lighting.
+\newblock Fast ray tracing in phase space for optical design.
+\newblock 2013.
 
-\bibitem[BDF12]{BudhirajaDupuisFischer12}
-A.~Budhiraja, P.~Dupuis, and M.~Fischer.
-\newblock Large deviation properties of weakly interacting processes via weak
-  convergence methods.
-\newblock {\em The Annals of Probability}, 40(1):74--102, 2012.
+\bibitem{Ries:2}
+H.~Ries and A.~Rabl.
+\newblock Edge-ray principle of nonimaging optics.
+\newblock {\em JOSA A}, 11(10):2627--2632, 1994.
 
-\bibitem[BGL{\etalchar{+}}14]{Bakry2014}
-D.~Bakry, I.~Gentil, M.~Ledoux, et~al.
-\newblock {\em Analysis and geometry of Markov diffusion operators}.
-\newblock Springer, 2014.
+\bibitem{teichmann1998surface}
+M.~Teichmann and M.~Capps.
+\newblock Surface reconstruction with anisotropic density-scaled alpha shapes.
+\newblock In {\em Visualization'98. Proceedings}, pages 67--72. IEEE, 1998.
 
-\bibitem[CL94]{Cattiaux1994}
-Patrick Cattiaux and Christian L{\'e}onard.
-\newblock Minimization of the {K}ullback information of diffusion processes.
-\newblock In {\em Annales de l'institut Henri Poincar{\'e} (B) Probabilit{\'e}s
-  et Statistiques}, volume~30, pages 83--132. Gauthier-Villars, 1994.
-
-\bibitem[CL95]{CattiauxLeonard}
-P.~Cattiaux and C.~L\'{e}onard.
-\newblock Large deviations and nelson processes.
-\newblock 7(7):95--116, 1995.
-
-\bibitem[DE97]{DupuisEllis97}
-Paul Dupuis and Richard~S Ellis.
-\newblock {\em A {W}eak {C}onvergence {A}pproach to the {T}heory of {L}arge
-  {D}eviations}, volume 902.
-\newblock John Wiley \& Sons, 1997.
-
-\bibitem[DE11]{DupuisEllis11}
-Paul Dupuis and Richard~S Ellis.
-\newblock {\em A weak convergence approach to the theory of large deviations},
-  volume 902.
-\newblock John Wiley \& Sons, 2011.
-
-\bibitem[DG87]{DawsonGartner87}
-D.~A. Dawson and J.~Gartner.
-\newblock {Large deviations from the {McKean-Vlasov} limit for weakly
-  interacting diffusions}.
-\newblock {\em Stochastics}, 20(4):247--308, 1987.
-
-\bibitem[DLPS15]{DuongLamaczPeletierSharma15}
-Manh~Hong Duong, Agnes Lamacz, Mark~A Peletier, and Upanshu Sharma.
-\newblock Variational approach to coarse-graining of generalized gradient
-  flows.
-\newblock {\em arXiv preprint arXiv:1507.03207}, 2015.
-
-\bibitem[DPZ13]{DuongPeletierZimmer13}
-M.~H. Duong, M.~A. Peletier, and J.~Zimmer.
-\newblock {GENERIC} formalism of a {V}lasov-{F}okker-{P}lanck equation and
-  connection to large-deviation principles.
-\newblock {\em Nonlinearity}, 26(2951-2971), 2013.
-
-\bibitem[DV75]{DonskerVaradhan75}
-Monroe~D Donsker and SR~Srinivasa Varadhan.
-\newblock Asymptotic evaluation of certain markov process expectations for
-  large time, i.
-\newblock {\em Communications on Pure and Applied Mathematics}, 28(1):1--47,
-  1975.
-
-\bibitem[Fis14]{Fischer14}
-Markus Fischer.
-\newblock On the form of the large deviation rate function for the empirical
-  measures of weakly interacting systems.
-\newblock {\em Bernoulli}, 20(4):1765--1801, 2014.
-
-\bibitem[FW94]{Freidlin1994}
-M.~I. Freidlin and A.~D. Wentzell.
-\newblock Random perturbations of {H}amiltonian systems.
-\newblock {\em Mem. Amer. Math. Soc.}, 109 (523), 1994.
-
-\bibitem[G{\"a}r77]{Gartner77}
-J{\"u}rgen G{\"a}rtner.
-\newblock On large deviations from the invariant measure.
-\newblock {\em Theory of Probability \& Its Applications}, 22(1):24--39, 1977.
-
-\bibitem[GOVW09]{GrunewaldOttoVillaniWestdickenberg09}
-N.~Grunewald, F.~Otto, C.~Villani, and M.~G. Westdickenberg.
-\newblock A two-scale approach to logarithmic {S}obolev inequalities and the
-  hydrodynamic limit.
-\newblock {\em Ann. Inst. H. Poincar{\'e} Probab. Statist}, 45(2):302--351,
-  2009.
-
-\bibitem[Kra40]{Kramers1940}
-H.A. Kramers.
-\newblock Brownian motion in a field of force and the diffusion model of
-  chemical reactions.
-\newblock {\em Physica}, 7(4):284 -- 304, 1940.
-
-\bibitem[KS00]{KinderlehrerStampacchia00}
-D.~Kinderlehrer and G.~Stampacchia.
-\newblock {\em An Introduction to Variational Inequalities and Their
-  Applications}.
-\newblock Classics in Applied Mathematics. SIAM, 2000.
-
-\bibitem[Oel84]{Oelschlager84}
-Karl Oelschlager.
-\newblock A martingale approach to the law of large numbers for weakly
-  interacting stochastic processes.
-\newblock {\em The Annals of Probability}, pages 458--479, 1984.
+\bibitem{Ting:1}
+D.~Z. Ting and T.~C. McGill~Jr.
+\newblock \text{Monte Carlo} simulation of light-emitting diode
+  light-extraction characteristics.
+\newblock {\em Optical Engineering}, 34(12):3545--3553, 1995.
 
 \end{thebibliography}

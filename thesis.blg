@@ -1,52 +1,26 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: chapters/abstract.aux
-A level-1 auxiliary file: chapters/HIR.aux
-A level-1 auxiliary file: chapters/VFP.aux
-The style file: alpha.bst
-Database file #1: Bib_US.bib
-Warning--can't use both volume and number fields in Cattiaux1994
-Warning--empty journal in CattiauxLeonard
-You've used 20 entries,
-            2543 wiz_defined-function locations,
-            705 strings with 8230 characters,
-and the built_in function-call counts, 8036 in all, are:
-= -- 805
-> -- 402
-< -- 9
-+ -- 142
-- -- 137
-* -- 598
-:= -- 1351
-add.period$ -- 63
-call.type$ -- 20
-change.case$ -- 121
-chr.to.int$ -- 20
-cite$ -- 22
-duplicate$ -- 305
-empty$ -- 563
-format.name$ -- 160
-if$ -- 1617
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 104
-num.names$ -- 60
-pop$ -- 103
-preamble$ -- 1
-purify$ -- 146
-quote$ -- 0
-skip$ -- 263
-stack$ -- 0
-substring$ -- 439
-swap$ -- 40
-text.length$ -- 9
-text.prefix$ -- 4
-top$ -- 0
-type$ -- 140
-warning$ -- 2
-while$ -- 79
-width$ -- 23
-write$ -- 262
-(There were 2 warnings)
+A level-1 auxiliary file: chapters/Introduction.aux
+A level-1 auxiliary file: chapters/Non_imaging_optics.aux
+A level-1 auxiliary file: chapters/Ray_tracing.aux
+A level-1 auxiliary file: chapters/PS_ray_tracing.aux
+A level-1 auxiliary file: chapters/Boundaries.aux
+A level-1 auxiliary file: chapters/Analytic_ray_mapping.aux
+A level-1 auxiliary file: chapters/Extended_ray_mapping.aux
+A level-1 auxiliary file: chapters/Fresnel.aux
+A level-1 auxiliary file: chapters/Conclusions.aux
+A level-1 auxiliary file: chapters/Summary.aux
+A level-1 auxiliary file: chapters/cv.aux
+A level-1 auxiliary file: chapters/Acknowledgments.aux
+The style file: abbrv.bst
+Database file #1: Bib_US1.bib
+Warning--I didn't find a database entry for "chaves2008introduction"
+Warning--I didn't find a database entry for "wolf2004geometric"
+Warning--I didn't find a database entry for "rausch2014phase"
+Warning--I didn't find a database entry for "torre2005linear"
+Warning--I didn't find a database entry for "moore2013methods"
+Warning--I didn't find a database entry for "tre"
+Warning--I didn't find a database entry for ""
+Warning--empty publisher in hecht1998hecht
+Warning--empty journal in portegies2013fast
+(There were 9 warnings)

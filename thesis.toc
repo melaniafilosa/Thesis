@@ -2,27 +2,49 @@
 \select@language {UKenglish}
 \select@language {dutch}
 \select@language {UKenglish}
-\contentsline {chapter}{\numberline {1}Relative-entropy Fisher-Information Rate-functional Inequality}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Heuristics}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Origin of the functional $\mathbf {I}$: large deviations of a stochastic particle system}{4}{subsection.1.1.2}
-\contentsline {subsubsection}{Vlasov-Fokker-Planck equation}{5}{section*.4}
-\contentsline {subsection}{\numberline {1.1.3}Outline of this chapter}{7}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Rigorous results I - No interaction}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Abstract result}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Concrete examples}{9}{subsection.1.2.2}
-\contentsline {subsubsection}{Reversible diffusion processes}{10}{section*.5}
-\contentsline {subsubsection}{Non-reversible SDEs with bounded mobility}{10}{section*.6}
-\contentsline {subsubsection}{SDEs with rough coefficients}{11}{section*.7}
-\contentsline {subsubsection}{QCG}{11}{section*.8}
-\contentsline {subsubsection}{Langevin equation}{13}{section*.9}
-\contentsline {section}{\numberline {1.3}Rigorous results II - VFP equation}{14}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Setup}{14}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Main result}{15}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Discussion}{18}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Novelties}{18}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Literature - Comparison}{18}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Choice of Lyapunov functional}{18}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}HIR inequality in this thesis}{18}{subsection.1.4.4}
-\contentsline {section}{\numberline {1.A}Proof of Lemma~\ref {HIR-lem:two-defs-RFI}}{18}{section.1.1.A}
-\contentsline {chapter}{Bibliography}{21}{chapter*.10}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Methods and results}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Content of this thesis}{1}{section.1.3}
+\contentsline {chapter}{\numberline {2}Non imaging optics}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Radiometric and photometric variables}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Reflection and refraction law}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Fresnel reflection}{3}{section.2.3}
+\contentsline {chapter}{\numberline {3}Ray tracing}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Ray tracing for two-dimensional optical systems}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Monte Carlo ray tracing}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}The phase space method for a TIR-collimator}{5}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Classical ray tracing and geometry of the optical system}{5}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Phase space representation of the source and the target}{8}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Triangulation refinement of source phase space}{9}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Photometric variables at the target}{11}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Numerical results and discussion}{15}{section.3.4}
+\contentsline {chapter}{\numberline {4}Ray tracing on phase space}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Phase space concept}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}The edge-ray principle}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}The PS method}{19}{section.4.3}
+\contentsline {chapter}{\numberline {5}Two different appoaches to compute the boundaries in target phase space}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}The $\alpha $-shapes approach}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}The two-faceted cup}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Results for a TIR collimator}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}The triangulation refinement approach}{24}{section.5.4}
+\contentsline {section}{\numberline {5.5}The two-faceted cup}{24}{section.5.5}
+\contentsline {section}{\numberline {5.6}Results for a Parabolic reflector}{24}{section.5.6}
+\contentsline {section}{\numberline {5.7}Results for the Compound Parabolic Concentrator}{24}{section.5.7}
+\contentsline {section}{\numberline {5.8}Results for a TIR collimator}{24}{section.5.8}
+\contentsline {chapter}{\numberline {6}The inverse ray mapping method: analytic approach}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Explanation of the method}{25}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results for the two-faceted cup}{25}{section.6.2}
+\contentsline {section}{\numberline {6.3}Results for the multi-faceted cup}{25}{section.6.3}
+\contentsline {section}{\numberline {6.4}Discussions}{25}{section.6.4}
+\contentsline {chapter}{\numberline {7}The extended ray mapping method}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}Explanation of the method}{27}{section.7.1}
+\contentsline {section}{\numberline {7.2}Bisection procedure}{27}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results for a parabolic reflector}{27}{section.7.3}
+\contentsline {section}{\numberline {7.4}Results for two different kind of TIR-collimators}{27}{section.7.4}
+\contentsline {chapter}{\numberline {8}Extended method to systems with Fresnel reflection}{29}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusions and remarks}{31}{chapter.9}
+\contentsline {chapter}{Summary}{33}{chapter*.16}
+\contentsline {chapter}{Curriculum Vitae}{35}{chapter*.17}
+\contentsline {chapter}{Acknowledgments}{37}{chapter*.18}
+\contentsline {chapter}{Bibliography}{39}{chapter*.19}

@@ -13,6 +13,40 @@
 
 
 
+
+
+\newcommand{\setta}[3]{$\emph{#1}_{\textit{#2#3}}$}
+%\newcommand{\setconst}[3]{$\mathcal{#1}_{\textrm{#2#3}}$}
+\newcommand{\map}[3]{$\mathrm{#1}_{\textit{#2#3}}$}
+%\newcommand{\mapconst}[3]{$\mathrm{#1}_{\textrm{#2#3}}$}
+\newcommand{\varia}[1]{\textit{#1}}
+\newcommand{\pos}[2]{\var{q}_{\textrm{#1} \textit{#2}}}
+\newcommand{\dir}[2]{\var{p}_{\textrm{#1} \textit{#2}}}
+\newcommand{\const}[1]{\textrm{#1}}
+\newcommand{\vect}[1]{\textit{\textbf{#1}}}
+\newcommand{\point}[1]{\textsf{#1}}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{tikz,tikz-qtree}
+\usetikzlibrary{backgrounds}
+\newcommand{\ply}[3][black]{{#2 ({\color{#1}#3})}}
+\newcommand{\player}[1]{ \emph #1}
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!20},
+  root/.style     = {treenode, font=\Large, bottom color=red!30},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  dummy/.style    = {treenode, circle,draw}
+}
+
+
+
+
+
+
+
 \input{macros.tex}
 
 \graphicspath{{figures/}}
@@ -23,9 +57,8 @@
 % 
 %\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
 
-
+\usepackage{epstopdf}
 \usepackage{fancyhdr}
-
 \usepackage{appendix} % For appendix
 
 \begin{document}
@@ -96,10 +129,8 @@
 \include{chapters/Summary}
 \include{chapters/cv}
 \include{chapters/Acknowledgments}
-\bibliographystyle{alpha}
-
-\bibliography{Bib_US}
-
+\bibliographystyle{abbrv}
+\bibliography{Bib_US1}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 

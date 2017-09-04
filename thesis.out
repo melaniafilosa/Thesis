@@ -1,7 +1,42 @@
-\BOOKMARK [0][-]{chapter.1}{Relative-entropy Fisher-Information Rate-functional Inequality}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Rigorous results I - No interaction}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Rigorous results II - VFP equation}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Discussion}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.1.A}{Proof of Lemma 1.3.2}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter*.10}{Bibliography}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Methods and results}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Content of this thesis}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Non imaging optics}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Radiometric and photometric variables}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Reflection and refraction law}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Fresnel reflection}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Ray tracing}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Ray tracing for two-dimensional optical systems}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Monte Carlo ray tracing}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{The phase space method for a TIR-collimator}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Numerical results and discussion}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Ray tracing on phase space}{}% 14
+\BOOKMARK [1][-]{section.4.1}{Phase space concept}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{The edge-ray principle}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{The PS method}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Two different appoaches to compute the boundaries in target phase space}{}% 18
+\BOOKMARK [1][-]{section.5.1}{The -shapes approach}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{The two-faceted cup}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Results for a TIR collimator}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.4}{The triangulation refinement approach}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.5}{The two-faceted cup}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.6}{Results for a Parabolic reflector}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.7}{Results for the Compound Parabolic Concentrator}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.8}{Results for a TIR collimator}{chapter.5}% 26
+\BOOKMARK [0][-]{chapter.6}{The inverse ray mapping method: analytic approach}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Explanation of the method}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Results for the two-faceted cup}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Results for the multi-faceted cup}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.4}{Discussions}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{The extended ray mapping method}{}% 32
+\BOOKMARK [1][-]{section.7.1}{Explanation of the method}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.2}{Bisection procedure}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.3}{Results for a parabolic reflector}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.4}{Results for two different kind of TIR-collimators}{chapter.7}% 36
+\BOOKMARK [0][-]{chapter.8}{Extended method to systems with Fresnel reflection}{}% 37
+\BOOKMARK [0][-]{chapter.9}{Conclusions and remarks}{}% 38
+\BOOKMARK [0][-]{chapter*.16}{Summary}{}% 39
+\BOOKMARK [0][-]{chapter*.17}{Curriculum Vitae}{}% 40
+\BOOKMARK [0][-]{chapter*.18}{Acknowledgments}{}% 41
+\BOOKMARK [0][-]{chapter*.19}{Bibliography}{}% 42
